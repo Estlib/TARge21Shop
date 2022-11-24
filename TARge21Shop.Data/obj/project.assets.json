@@ -172,6 +172,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "TARge21Shop.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TARge21Shop.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TARge21Shop.Core.dll": {}
+        }
       }
     }
   },
@@ -510,11 +520,17 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "TARge21Shop.Core/1.0.0": {
+      "type": "project",
+      "path": "../TARge21Shop.Core/TARge21Shop.Core.csproj",
+      "msbuildProject": "../TARge21Shop.Core/TARge21Shop.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.EntityFrameworkCore >= 7.0.0"
+      "Microsoft.EntityFrameworkCore >= 7.0.0",
+      "TARge21Shop.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -543,7 +559,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\KIVIPALLUR-6\\Desktop\\05 - Koolikaust\\programmeerimine\\viimaneprojekt\\TARge21Shop\\TARge21Shop\\TARge21Shop.Core\\TARge21Shop.Core.csproj": {
+              "projectPath": "C:\\Users\\KIVIPALLUR-6\\Desktop\\05 - Koolikaust\\programmeerimine\\viimaneprojekt\\TARge21Shop\\TARge21Shop\\TARge21Shop.Core\\TARge21Shop.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
