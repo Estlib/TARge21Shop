@@ -1,0 +1,103 @@
+﻿@model TARge21Shop.Models.Spaceship.SpaceshipEditViewModel
+
+<h1>Add</h1>
+
+<div>
+    <form method="post" enctype="multipart/form-data">
+        <input asp-for="Id" type="hidden" />
+        <input asp-for="CreatedAt" type="hidden" />
+        <input asp-for="ModifiedAt" type="hidden" />
+
+        <div class="form-group row">
+            <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Name" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="ShipType" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="ShipType" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="CrewCount" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="CrewCount" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="PassangerCount" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="PassangerCount" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="Cargo" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Cargo" class="form-control" />
+            </div>
+        </div>
+        
+        <div class="form-group row">
+            <label asp-for="EnginePower" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="EnginePower" class="form-control" />
+            </div>
+        </div>
+
+        
+        <div class="form-group row">
+            <label asp-for="FullTripCount" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="FullTripCount" class="form-control" />
+            </div>
+        </div>
+        
+        <div class="form-group row">
+            <label asp-for="BuildDate" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="BuildDate" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="LastMaintenance" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="LastMaintenance" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="MaintenanceCount" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="MaintenanceCount" class="form-control" />
+            </div>
+        </div>
+        
+        <div class="form-group row">
+            <label asp-for="MaintenanceCount" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="MaintenanceCount" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="MaidenLaunch" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="MaidenLaunch" class="form-control" />
+            </div>
+        </div>
+        
+        <div class="form-group row">
+            <label asp-for="Id" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Id" class="form-control" />
+            </div>
+        </div>
+    </form>
+</div>
