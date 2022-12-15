@@ -635,6 +635,20 @@
           }
         }
       },
+      "TARge21Shop.ApplicationServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TARge21Shop.Core": "1.0.0",
+          "TARge21Shop.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TARge21Shop.ApplicationServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TARge21Shop.ApplicationServices.dll": {}
+        }
+      },
       "TARge21Shop.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1881,6 +1895,11 @@
         "version.txt"
       ]
     },
+    "TARge21Shop.ApplicationServices/1.0.0": {
+      "type": "project",
+      "path": "../TARge21Shop.ApplicationServices/TARge21Shop.ApplicationServices.csproj",
+      "msbuildProject": "../TARge21Shop.ApplicationServices/TARge21Shop.ApplicationServices.csproj"
+    },
     "TARge21Shop.Core/1.0.0": {
       "type": "project",
       "path": "../TARge21Shop.Core/TARge21Shop.Core.csproj",
@@ -1898,6 +1917,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.11",
+      "TARge21Shop.ApplicationServices >= 1.0.0",
       "TARge21Shop.Data >= 1.0.0"
     ]
   },
@@ -1928,6 +1948,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\KIVIPALLUR-6\\Desktop\\05 - Koolikaust\\programmeerimine\\viimaneprojekt\\TARge21Shop\\TARge21Shop\\TARge21Shop.ApplicationServices\\TARge21Shop.ApplicationServices.csproj": {
+              "projectPath": "C:\\Users\\KIVIPALLUR-6\\Desktop\\05 - Koolikaust\\programmeerimine\\viimaneprojekt\\TARge21Shop\\TARge21Shop\\TARge21Shop.ApplicationServices\\TARge21Shop.ApplicationServices.csproj"
+            },
             "C:\\Users\\KIVIPALLUR-6\\Desktop\\05 - Koolikaust\\programmeerimine\\viimaneprojekt\\TARge21Shop\\TARge21Shop\\TARge21Shop.Data\\TARge21Shop.Data.csproj": {
               "projectPath": "C:\\Users\\KIVIPALLUR-6\\Desktop\\05 - Koolikaust\\programmeerimine\\viimaneprojekt\\TARge21Shop\\TARge21Shop\\TARge21Shop.Data\\TARge21Shop.Data.csproj"
             }

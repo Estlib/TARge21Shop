@@ -10,4 +10,9 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TARge21Shop.Core\TARge21Shop.Core.csproj" />
+    <ProjectReference Include="..\TARge21Shop.Data\TARge21Shop.Data.csproj" />
+  </ItemGroup>
+
 </Project>
