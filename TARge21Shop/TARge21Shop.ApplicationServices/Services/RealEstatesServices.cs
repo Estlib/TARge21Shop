@@ -23,13 +23,19 @@ namespace TARge21Shop.ApplicationServices.Services
              _context = context;
         }
 
-        public async Task<RealEstate> GetAsync()
-        {
-            //var result = await _context.RealEstates
-            //    .;
+        //public IEnumerable<RealEstate> GetAllRealEstates()
+        //{
+        //       var result = _context.RealEstates
+        //            .OrderByDescending(y => y.CreatedAt)
+        //            .Select(x => new RealEstate
+        //            {
+        //                Id = x.Id,
+        //                Price = x.Price,
+        //            });
 
-            return null;
-        }
+        //    return result;
+
+        //}
 
         public async Task<RealEstate> Create(RealEstateDto dto)
         {
