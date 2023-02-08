@@ -1,26 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Http;
+using TARge21Shop.Core.Domain;
 
-namespace TARge21Shop.Core.DTO
+namespace TARge21Shop.Core.Dto
 {
-    public class SpaceshipDTO
+    public class SpaceshipDto
     {
         public Guid? Id { get; set; }
-        public string? Name { get; set; }
-        public string? ShipType { get; set; }
-        public int CrewCount { get; set; }
-        public int PassangerCount { get; set; }
-        public int Cargo { get; set; }
-        public int FullTripCount { get; set; }
+        public string Name { get; set; }
+        public string Type { get; set; }
+        public int Crew { get; set; }
+        public int Passengers { get; set; }
+        public int CargoWeight { get; set; }
+        public int FullTripsCount { get; set; }
         public int MaintenanceCount { get; set; }
         public DateTime LastMaintenance { get; set; }
-        public DateTime BuildDate { get; set; }
         public int EnginePower { get; set; }
         public DateTime MaidenLaunch { get; set; }
-        public DateTime CreatedAt { get; set; } // for db only, date entry created on
-        public DateTime ModifiedAt { get; set; } // for db only, date entry last modified on
+        public DateTime BuiltDate { get; set; }
+
+        public List<IFormFile> Files { get; set; }
+        public IEnumerable<FileToDatabaseDto> Image { get; set; } = new List<FileToDatabaseDto>();
+
+        // only in database
+        public DateTime CreatedAt { get; set; }
+        public DateTime ModifiedAt { get; set; }
     }
 }

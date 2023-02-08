@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "uhDsIXpQ2S6T0gYveWu+JYo5IgaKQg0gmu/xyIjU5r8LOvmi0pqewbeupg+RW1qIoaYZbNRq3NtCSWOUm7bDHg==",
+  "dgSpecHash": "N4j7rV/dp5Juxscs46SuZ1Bfto0yf0ulLH9zee/75KA5OyJuZOmXB2druc5oZt2oo65Gxi+pICHFV0YHYASOug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\KIVIPALLUR-6\\Desktop\\05 - Koolikaust\\programmeerimine\\viimaneprojekt\\TARge21Shop\\TARge21Shop\\TARge21Shop.Core\\TARge21Shop.Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\KIVIPALLUR-6\\Desktop\\05 - Koolikaust\\programmeerimine\\viimaneprojekt\\TARge21ShopClone\\TARge21Shop\\TARge21Shop\\TARge21Shop.Core\\TARge21Shop.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.2.0\\microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\microsoft.extensions.options\\2.2.0\\microsoft.extensions.options.2.2.0.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\KIVIPALLUR-6\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

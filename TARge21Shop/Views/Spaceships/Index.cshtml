@@ -1,11 +1,15 @@
 ﻿@model IEnumerable<TARge21Shop.Models.Spaceship.SpaceshipIndexViewModel>
 
+@{
+    int rowNumber = 1;
+}
+
 <div class="h1">
-    Product
+    Products
 </div>
 
 <div>
-    <a asp-action="add" asp-asp-controller="spaceships" type="submit" class="btn btn-primary">Add</a>
+    <a asp-action="create" asp-controller="spaceships" type="submit" class="btn btn-primary">Create</a>
 </div>
 
 <form method="post">
@@ -14,49 +18,28 @@
             <tr>
                 <th scope="col">Nr</th>
                 <th scope="col">Name</th>
-                <th scope="col">Model</th>
-                <th scope="col">Passanger capacity</th>
-                <th scope="col">Crewcount</th>
-                <th scope="col">Cargo (Tons)</th>
-                <th scope="col">Engine power</th>
+                <th scope="col">Type</th>
+                <th scope="col">Passengers</th>
+                <th scope="col">Engine Power</th>
                 <th></th>
             </tr>
         </thead>
-        @*<tbody>
-            <tr>
-                <td>1</td>
-                <td>Musk's Peñor</td>
-                <td>SpaceX 1</td>
-                <td>USA</td>
-                <td>SpaceX</td>
-                <td>
-                    <a asp-action="edit" asp-controller="spaceships" asp-route-id="" class="btn btn-primary">Edit</a>
-                    <input asp-action="delete" asp-controller="spaceships" asp-route-id="" type="submit" class="btn btn-danger" value="Delete">
-                </td>
-            </tr>
-        </tbody>
-        *@
-        @{
-            int listingnumber = 0;
-        };
         <tbody>
             @foreach (var spaceship in Model)
             {
-                listingnumber += 1;
                 <tr>
-                    <td>@listingnumber</td>
+                    <td>@rowNumber</td>
                     <td>@spaceship.Name</td>
-                    <td>@spaceship.ShipType</td>
-                    <td>@spaceship.PassangerCount</td>
-                    <td>@spaceship.CrewCount</td>
-                    <td>@spaceship.Cargo</td>
+                    <td>@spaceship.Type</td>
+                    <td>@spaceship.Passengers</td>
                     <td>@spaceship.EnginePower</td>
                     <td>
                         <a asp-action="details" asp-controller="spaceships" asp-route-id="@spaceship.Id" class="btn btn-info">Details</a>
-                        <a asp-action="edit" asp-controller="spaceships" asp-route-id="@spaceship.Id" class="btn btn-primary">Edit</a>
-                        <a asp-action="delete" asp-controller="spaceships" asp-route-id="@spaceship.Id" type="submit" class="btn btn-danger">Delete</a>
+                        <a asp-action="update" asp-controller="spaceships" asp-route-id="@spaceship.Id" class="btn btn-primary">Update</a>
+                        <a asp-action="delete" asp-controller="spaceships" asp-route-id="@spaceship.Id" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
+                rowNumber += 1;
             }
         </tbody>
     </table>
