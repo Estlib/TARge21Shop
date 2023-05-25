@@ -15,7 +15,7 @@ namespace TARge21Shop.ApplicationServices.Services
         public async Task<OpenWeatherResultDto> WeatherDetail(OpenWeatherResultDto dto)
         {
             //127964 Tallinna kood
-            string IDOWeather = "f996dc4eed7b726919dc548b1abc4ee8";
+            string IDOWeather = "c836675e8fc0f0ee19630e67b8f0fac3";
             var url = $"https://api.openweathermap.org/data/2.5/weather?q={dto.City}&units=metric&APPID={IDOWeather}";
 
             using (WebClient client = new WebClient())
