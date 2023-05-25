@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace TARge21Shop.Data.Migrations
 {
-    public partial class RealEstate : Migration
+    public partial class correction : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

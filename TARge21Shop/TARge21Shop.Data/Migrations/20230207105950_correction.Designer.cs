@@ -12,8 +12,8 @@ using TARge21Shop.Data;
 namespace TARge21Shop.Data.Migrations
 {
     [DbContext(typeof(TARge21ShopContext))]
-    [Migration("20230126093423_RealEstate")]
-    partial class RealEstate
+    [Migration("20230207105950_correction")]
+    partial class correction
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

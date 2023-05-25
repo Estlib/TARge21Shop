@@ -10,6 +10,9 @@ namespace TARge21Shop.Data
 
         public DbSet<Spaceship> Spaceships { get; set; }
         public DbSet<FileToDatabase> FileToDatabases { get; set; }
+        public DbSet<FileCarToDatabase> FileCarToDatabases { get; set; }
         public DbSet<RealEstate> RealEstates { get; set; }
+        public DbSet<Car> Cars { get; set; }
+        public DbSet<FileToApi> FilesToApi { get; set; }
     }
 }

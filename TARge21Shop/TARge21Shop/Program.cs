@@ -15,6 +15,10 @@ builder.Services.AddDbContext<TARge21ShopContext>(options =>
 builder.Services.AddScoped<ISpaceshipsServices, SpaceshipsServices>();
 builder.Services.AddScoped<IFilesServices, FilesServices>();
 builder.Services.AddScoped<IRealEstatesServices, RealEstatesServices>();
+builder.Services.AddScoped<ICarsServices, CarsServices>();
+builder.Services.AddScoped<IWeatherForecastServices, WeatherForecastsServices>();
+builder.Services.AddScoped<IEmailsServices, EmailsServices>();
+builder.Services.AddScoped<IOpenWeathersServices, OpenWeathersServices>();
 
 
 var app = builder.Build();
